@@ -1,17 +1,24 @@
 Chapter 1: Introduction
 
 1.1 Problem Statement
+
 Healthcare information is vast and complex, making it difficult for users to quickly access reliable medical advice. Many individuals turn to the internet for answers, but the reliability of sources varies widely. This inconsistency can lead to misinformation, misdiagnosis, and unnecessary anxiety. The challenge is to create an AI-powered healthcare assistant that provides quick, relevant, and accurate responses to health-related queries while maintaining ease of use.
+
 1.2 Motivation
+
 The healthcare sector is continuously evolving with advancements in artificial intelligence (AI) and machine learning (ML). AI-driven solutions have proven beneficial in various domains, including diagnostics, personalized medicine, and virtual consultations. This project aims to leverage the power of NLP and AI to bridge the knowledge gap, offering users an intelligent, interactive, and informative healthcare assistant.
+
 1.3 Objectives
+
 The primary objectives of this project are:
 •	To develop an AI-based healthcare assistant capable of processing natural language queries.
 •	To provide informative responses regarding symptoms, conditions, and treatments.
 •	To incorporate additional health-related features such as data visualization and BMI calculation.
 •	To enhance accessibility and user engagement through an intuitive UI.
 •	To ensure ethical AI implementation by providing clear disclaimers that this tool is not a substitute for professional medical advice.
+
 1.4 Scope of the Project
+
 The scope of this project includes:
 •	The use of a pre-trained transformer model (distilgpt2) for text generation.
 •	Integration of natural language processing (NLP) to understand user queries.
@@ -25,7 +32,9 @@ Chapter 2: Literature Survey
 
 2.1 Overview of AI in Healthcare
 AI has significantly influenced healthcare through applications in diagnostics, predictive analytics, and virtual assistance. Research studies highlight that AI-driven chatbots and assistants enhance patient engagement, streamline medical consultations, and reduce the burden on healthcare professionals.
+
 2.2 Related Works
+
 Several AI-powered healthcare chatbots exist, such as Babylon Health, Ada, and Buoy Health. These solutions utilize NLP and ML algorithms to provide medical insights. However, many models require extensive datasets and real-time updates, which present challenges in terms of computational resources and reliability. This project leverages a transformer-based approach to improve response quality while maintaining computational efficiency.
 
 
